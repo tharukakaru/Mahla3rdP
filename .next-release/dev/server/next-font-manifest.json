@@ -1,0 +1,8 @@
+{
+  "app": {
+    "[project]/src/app/[locale]/[[...slug]]/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

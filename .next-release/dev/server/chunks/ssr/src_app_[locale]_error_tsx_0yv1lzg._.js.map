@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/THARUKA%20KARUNARATHNE/Mahla%203rd%20pointt/src/app/[locale]/error.tsx"],"sourcesContent":["'use client';\nimport { en } from '@/content/en';\nexport default function ErrorPage({ reset }: { reset: () => void }) { return <div className=\"not-found\"><h1>{en.ui.error}</h1><p>{en.ui.errorBody}</p><button className=\"action\" onClick={reset}>{en.ui.retry}</button></div>; }\n"],"names":["ErrorPage","reset","className","ui","error","errorBody","onClick","retry"],"mappings":";;;;;AACA;AADA;;;AAEe,SAASA,UAAU,EAAEC,KAAK,EAAyB;IAAI,qBAAO,8OAAC;QAAIC,WAAU;;0BAAY,8OAAC;0BAAI,0HAAE,CAACC,EAAE,CAACC,KAAK;;;;;;0BAAM,8OAAC;0BAAG,0HAAE,CAACD,EAAE,CAACE,SAAS;;;;;;0BAAK,8OAAC;gBAAOH,WAAU;gBAASI,SAASL;0BAAQ,0HAAE,CAACE,EAAE,CAACI,KAAK;;;;;;;;;;;;AAAkB"}}]
+}

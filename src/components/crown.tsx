@@ -1,0 +1,1 @@
+export function Crown({ className = '' }: { className?: string }) { return <svg className={`crown-icon ${className}`} viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M6 23 3 10l8 6 5-11 5 11 8-6-3 13Z"/><path d="M7 27h18"/><circle cx="16" cy="4" r="1.3"/></svg>; }
