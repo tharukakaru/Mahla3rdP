@@ -5,7 +5,7 @@ if (marketingOrigin && new URL(marketingOrigin).origin === new URL(existingOrigi
   throw new Error('Marketing and the existing application need distinct origins before deployment. Set NEXT_PUBLIC_LEGACY_ORIGIN to the preserved application host to prevent booking/account links looping back to marketing.');
 }
 const config: NextConfig = {
-  distDir: '.next-release',
+  distDir: '.next',
   devIndicators: false,
   poweredByHeader: false,
   async redirects() {
@@ -38,5 +38,6 @@ if (process.env.MAHLA_STATIC_EXPORT === '1') {
   delete config.headers;
 }
 export default config;
+
 
 
